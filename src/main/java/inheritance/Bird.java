@@ -10,7 +10,7 @@ public class Bird extends Animal {
         System.out.println(name + " is flying");
     }
 
-    @Override
+
     protected void run() {
         System.out.println(name + " is running on two legs");
     }

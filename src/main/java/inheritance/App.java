@@ -1,16 +1,21 @@
 package inheritance;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 public class App {
-    public static Logger log = LoggerFactory.getLogger(App.class);
 
     public static void main(String[] args) {
         Cat cat = new Cat("Fluffy");
         Dog dog = new Dog("Barbos");
-        Parrot parrot= new Parrot("Gosha");
+        Parrot parrot = new Parrot("Gosha");
 
+        Mammal mammalDog = new Mammal("Dog");
+        Mammal mammalCat = new Mammal("Cat");
+        Bird bird = new Bird("Bird");
+
+
+        mammalDog.run();
+        mammalCat.run();
+        bird.run();
+        System.out.println("______________");
         cat.meows();
         cat.hasTeeth();
         cat.sleep();

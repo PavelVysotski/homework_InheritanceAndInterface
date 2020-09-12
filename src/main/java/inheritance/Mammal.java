@@ -10,8 +10,7 @@ public class Mammal extends Animal {
         System.out.println(name + " have teeth");
     }
 
-    @Override
     public void run (){
-        System.out.println(name + " is running on four legs");
+        System.out.println(name + " is running");
     }
 }
