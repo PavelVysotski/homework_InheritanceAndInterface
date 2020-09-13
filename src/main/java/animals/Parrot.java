@@ -13,4 +13,9 @@ public class Parrot extends Bird{
     protected void run() {
         System.out.println(name + " is running very slowly");
     }
+
+    @Override
+    protected void eat() {
+        System.out.println(name + " is eating corn");
+    }
 }

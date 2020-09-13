@@ -14,4 +14,9 @@ public class Dog extends Mammal{
     public void run() {
         System.out.println(name + " is running fast");
     }
+
+    @Override
+    protected void eat() {
+        System.out.println(name + " is eating meat");
+    }
 }

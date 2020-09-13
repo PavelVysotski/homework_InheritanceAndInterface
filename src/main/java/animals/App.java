@@ -7,11 +7,12 @@ public class App {
         Dog dog = new Dog("Barbos");
         Parrot parrot = new Parrot("Gosha");
 
+        Mammal mammal = new Mammal("Mammal");
         Mammal mammalDog = new Mammal("Dog");
         Mammal mammalCat = new Mammal("Cat");
         Bird bird = new Bird("Bird");
 
-
+        mammal.eat();
         mammalDog.run();
         mammalCat.run();
         bird.run();

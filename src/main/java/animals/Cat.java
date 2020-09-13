@@ -13,4 +13,9 @@ public class Cat extends Mammal{
     @Override
     public void run() {
         System.out.println(name + " is running on four legs");    }
+
+    @Override
+    protected void eat() {
+        System.out.println(name + " is eating fish");
+    }
 }
