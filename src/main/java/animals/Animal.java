@@ -1,7 +1,5 @@
-package inheritance;
+package animals;
 
-
-import java.util.Objects;
 
 public abstract class Animal {
 

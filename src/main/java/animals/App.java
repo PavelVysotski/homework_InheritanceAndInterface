@@ -1,4 +1,4 @@
-package inheritance;
+package animals;
 
 public class App {
 
