@@ -1,6 +1,6 @@
-package animals;
+package inheritance_Interface.animals;
 
-public class Dog extends Mammal{
+public class Dog extends Mammal {
 
     public Dog(String name) {
         super(name);
@@ -16,7 +16,7 @@ public class Dog extends Mammal{
     }
 
     @Override
-    protected void eat() {
+    public void eat() {
         System.out.println(name + " is eating meat");
     }
 }

@@ -1,4 +1,4 @@
-package animals;
+package inheritance_Interface.animals;
 
 
 public abstract class Animal {
@@ -19,7 +19,7 @@ public abstract class Animal {
     }
 
     protected void run () {
-        System.out.println(name + " is eating");
+        System.out.println(name + " is running");
 
     }
 

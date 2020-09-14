@@ -1,6 +1,6 @@
-package animals;
+package inheritance_Interface.animals;
 
-public class Parrot extends Bird{
+public class Parrot extends Bird {
     public Parrot(String name) {
         super(name);
     }
@@ -10,12 +10,12 @@ public class Parrot extends Bird{
     }
 
     @Override
-    protected void run() {
+    public void run() {
         System.out.println(name + " is running very slowly");
     }
 
     @Override
-    protected void eat() {
+    public void eat() {
         System.out.println(name + " is eating corn");
     }
 }

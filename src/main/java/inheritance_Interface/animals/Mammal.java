@@ -1,4 +1,4 @@
-package animals;
+package inheritance_Interface.animals;
 
 public class Mammal extends Animal {
 
@@ -6,11 +6,11 @@ public class Mammal extends Animal {
         super(name);
     }
 
-    public void hasTeeth() {
+    protected void hasTeeth() {
         System.out.println(name + " have teeth");
     }
 
-    public void run (){
+    protected void run (){
         System.out.println(name + " is running");
     }
 

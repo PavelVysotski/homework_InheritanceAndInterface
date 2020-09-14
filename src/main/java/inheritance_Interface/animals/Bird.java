@@ -1,4 +1,4 @@
-package animals;
+package inheritance_Interface.animals;
 
 public class Bird extends Animal {
 
@@ -6,12 +6,12 @@ public class Bird extends Animal {
         super(name);
     }
 
-    protected void fly() {
+    public void fly() {
         System.out.println(name + " is flying");
     }
 
 
-    protected void run() {
+    public void run() {
         System.out.println(name + " is running on two legs");
     }
 }
