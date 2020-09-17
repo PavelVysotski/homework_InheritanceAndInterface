@@ -1,6 +1,6 @@
 package inheritance_Interface.shape;
 
-public class Square extends AbstractShape implements Shape{
+public class Square extends AbstractShape implements Shape {
     private double side1;
     private double side2;
 
@@ -17,6 +17,6 @@ public class Square extends AbstractShape implements Shape{
 
     @Override
     public double getArea() {
-        return side1*side2;
+        return side1 * side2;
     }
 }
